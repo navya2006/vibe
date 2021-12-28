@@ -5,8 +5,22 @@
     --three: #eee;
     --font-color: #000;
     --bg-color: #ffface;
-    --four: #111;
+    --four: #222;
     --switch-bg-color: rgba(0, 0, 0, 0.15);
+    --moon: block;
+    --sun: none;
+}
+
+[data-theme="dark"] {
+    --one: #3c5148;
+    --two: #cc6a58;
+    --three: #000;
+    --font-color: #fff;
+    --bg-color: #ffface;
+    --four: #eee;
+    --switch-bg-color: rgba(0, 0, 0, 0.15);
+    --moon: none;
+    --sun: block;
 }
 
 /*PREREQUISITES*/
@@ -56,6 +70,69 @@ a {
     text-decoration: none;
 }
 
+/* DARK MODE SWITCH */
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    float: right;
+    position: fixed;
+    z-index: 999;
+    bottom: 20px;
+    right: 20px;
+}
+
+.theme-switch-wrapper a {
+    margin: 10px 15px;
+}
+
+.theme-switch {
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    width: 50px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 30;
+    text-align: center;
+    padding-top: 10px;
+    background-color: var(--switch-bg-color);
+    opacity: 0.5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.4s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.sun {
+    display: var(--sun);
+}
+
+.moon {
+    display: var(--moon);
+}
+
+.slider img {
+    height: 30px;
+}
+
+.slider.round {
+    border-radius: 50%;
+}
+
 /*SIDENAV*/
 .sidenav {
     height: 100%;
@@ -70,14 +147,14 @@ a {
   }
 
   .sidenav .tiny{
-      font-size: 15px;
+      font-size: 13px;
   }
   
   .sidenav a {
     padding: 6px 6px 6px 32px;
     text-decoration: none;
-    font-size: 17px;
-    color: var(--three);
+    font-size: 15px;
+    color: #eee;
     display: block;
   }
   
@@ -158,8 +235,8 @@ a {
     background-image: url('images/vibe.jpg');
 }
 
-.slider{
+.slide{
     background-color: var(--four);
-    padding: 80px;
+    padding: 60px;
     height: auto;
 }
