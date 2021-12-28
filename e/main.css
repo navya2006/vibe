@@ -131,6 +131,11 @@ a {
     padding-top: 15%;
 }
 
+.music p{
+    color: var(--three);
+    font-size: 12px;
+}
+
 .music img{
     height: 240px;
     width: 220px;
