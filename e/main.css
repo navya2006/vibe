@@ -157,3 +157,9 @@ a {
     background-repeat: no-repeat;
     background-image: url('images/vibe.jpg');
 }
+
+.slider{
+    background-color: var(--four);
+    padding: 80px;
+    height: auto;
+}
