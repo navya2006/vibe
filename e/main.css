@@ -1,0 +1,175 @@
+/*VARIABLES*/
+:root {
+    --one: #3c5148;
+    --two: #cc6a58;
+    --three: #eee;
+    --font-color: #fff;
+    --bg-color: #000;
+    --switch-bg-color: rgba(0, 0, 0, 0.15);
+}
+
+/*PREREQUISITES*/
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+}
+
+hr {
+    width: 85%;
+    border-color: var(--lighter-bg-color);
+    transition: 0.4s !important;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.align-center {
+    text-align: center !important;
+}
+
+.right {
+    float: right !important;
+}
+
+.left {
+    float: left !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*SIDENAV
+.sidenav {
+	height:100%;
+	width:0%;
+	position:fixed;
+	z-index:500;
+	top:0px;
+	left:0px;
+  padding-top: 4px;
+	background-color:rgba(255,255,255,0.6);
+	overflow-x:hidden;
+	transition:0.4s;
+	padding-top:22%;
+}
+
+.sidenav a{
+	display:block;
+	color:var(--four);
+	padding: 6px 2px;
+	width:80%;
+	text-align:center;
+	text-decoration:none;
+	transition: all 0.4s;
+	position:relative;
+	font-size:17px;
+	text-transform:uppercase;
+}
+
+.sidenav a::after {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	width:0%;
+	content:'.';
+	color:transparent;
+	background-color:var(--four);
+	height:2px;
+	transition: all 0.4s;
+}
+
+.sidenav a:hover::after {
+	width:30%;
+}
+
+.sidenav .close {
+	position:absolute;
+	top:60px;
+	right:35px;
+	font-size:36px;
+	width:10%;
+}	
+
+.nav-small{
+	display:none;
+}
+
+.nav-small .icon{
+	color:var(--color-three);
+	font-size: 35px;
+	padding:5px;
+}
+*/
+
+/*HOME*/
+.home{
+    height: 60%;
+	width:100%;
+    background-color: var(--bg-color);
+    padding-bottom: 10%;
+}
+
+.home h1{
+    color: var(--font-color);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20%;
+}
+
+/*MUSIC*/
+.music{
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('images/bg.jpg');
+}
+
+.music .row{
+    padding-bottom: 27px;
+}
+
+.music h2{
+    color:var(--font-color);
+    font-size: 27px;
+    padding-top: 50px;
+}
+
+.music img{
+    height: 250px;
+    width: 250px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+/*ARTISt*/
+.art {
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('images/vibe.png');
+}
