@@ -67,7 +67,7 @@ hr {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important; 
 }
 
 /* DARK MODE SWITCH */
@@ -240,3 +240,35 @@ a {
     padding: 60px;
     height: auto;
 }
+
+/*PLAY*/
+.play{
+    background: linear-gradient(to bottom, #993333 0%, #000000 83%);
+    height: 100%;
+}
+
+.play img{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    animation: rotation linear 5s infinite;
+}
+
+.play .row{
+    padding-top: 70px;
+}
+
+.play .audio{
+    width: 100%;
+    margin-top: 50px;
+    color: #8c1b20;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
