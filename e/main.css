@@ -196,6 +196,7 @@ a {
     height: auto;
     width: 100%;
     background-color: var(--four);
+    padding-bottom: 7%;
 }
 
 .music .row{
@@ -294,4 +295,51 @@ a {
     to {
       transform: rotate(360deg);
     }
+  }
+
+  /*FOOTER*/
+#footer{
+    background-color: var(--font-color);
+    color: var(--three);
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: left;
+  }
+  
+  #footer .row{
+    padding: 1%;
+  }
+  
+  #footer .col-md-2{
+    padding: 1%;
+  }
+  
+  #footer h1{
+    color: var(--three);
+    font-size: 27px;
+    text-align: left;
+  }
+  
+  #footer p{
+    padding: 1%;
+    font-size: 15px;
+    color: #ccc8c8;
+  }
+  
+  #footer h2{
+    padding: 1%;
+    font-size: 20px;
+    color: var(--three);
+  }
+  
+  #footer img{
+    height: 200px;
+    width: 220px;
+    transition: 0.4s;
+    padding-bottom: 2%;
+    padding: 1%;
+  }
+  
+  #footer img:hover{
+    transform: scaleX(1.1) scaleY(1.1);
   }
