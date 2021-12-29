@@ -247,6 +247,29 @@ a {
     height: 100%;
 }
 
+.rox{
+    background: linear-gradient(to bottom, #000 0%, var(--four) 83%);
+    height: 100%;
+}
+
+.rox img{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    animation: rotation linear 9s infinite;
+}
+
+.rox .row{
+    padding-top: 70px;
+}
+
+.rox .audio{
+    width: 100%;
+    margin-top: 50px;
+    color: #8c1b20;
+}
+
+
 .play img{
     border-radius: 50%;
     height: 400px;
