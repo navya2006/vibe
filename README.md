@@ -7,4 +7,4 @@ https://www.w3schools.com/
 
 Built on resolution: 2560x1600 pixels
 
-Compatible on all laptop and pc screens
+Compatible on all laptop and desktop screens
