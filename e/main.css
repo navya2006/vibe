@@ -243,7 +243,7 @@ a {
 
 /*PLAY*/
 .play{
-    background: linear-gradient(to bottom, #993333 0%, #000000 83%);
+    background: linear-gradient(to bottom, #993333 0%, var(--four) 83%);
     height: 100%;
 }
 
@@ -251,7 +251,7 @@ a {
     border-radius: 50%;
     height: 400px;
     width: 400px;
-    animation: rotation linear 5s infinite;
+    animation: rotation linear 9s infinite;
 }
 
 .play .row{
