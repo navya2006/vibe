@@ -204,7 +204,7 @@ body{
 .content {
     padding-top: 50px;
     text-align: left;
-    height: 25em
+    height: 20em
 }
 
 .comment_input, .comment{
@@ -216,7 +216,7 @@ body{
 
 .comment{
     overflow: hidden
-    height: 80%;
+    height: 16em;
 }
 input, textarea {
     background-color: transparent;
