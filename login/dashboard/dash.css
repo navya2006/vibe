@@ -204,7 +204,8 @@ body{
 .content {
     padding-top: 50px;
     text-align: left;
-    height: 20em
+    height: 20em;
+    overflow: hidden;
 }
 
 .comment_input, .comment{
